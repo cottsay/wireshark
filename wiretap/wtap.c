@@ -742,7 +742,10 @@ static struct encap_type_info encap_table_base[] = {
 	{ "OpenBSD loopback", "loop" },
 
 	/* WTAP_ENCAP_JSON */
-	{ "JavaScript Object Notation", "json" }
+	{ "JavaScript Object Notation", "json" },
+
+	/* WTAP_ENCAP_CEC */
+	{ "HDMI CEC", "cec" },
 };
 
 WS_DLL_LOCAL

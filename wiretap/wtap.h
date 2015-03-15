@@ -263,6 +263,7 @@ extern "C" {
 #define WTAP_ENCAP_IPMI_TRACE                   174
 #define WTAP_ENCAP_LOOP                         175
 #define WTAP_ENCAP_JSON                         176
+#define WTAP_ENCAP_CEC                          177
 /* After adding new item here, please also add new item to encap_table_base array */
 
 #define WTAP_NUM_ENCAP_TYPES                    wtap_get_num_encap_types()

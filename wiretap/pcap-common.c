@@ -433,6 +433,9 @@ static const struct {
 	/* IPMI Trace Data Collection */
 	{ 260,		WTAP_ENCAP_IPMI_TRACE },
 
+	/* HDMI CEC */
+	{ 264,		WTAP_ENCAP_CEC },
+
 	/*
 	 * To repeat:
 	 *
