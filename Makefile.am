@@ -60,6 +60,7 @@ dist_pkgdata_DATA = COPYING manuf services cfilters colorfilters dfilters \
 profilesdir = $(pkgdatadir)
 nobase_dist_profiles_DATA = \
 	profiles/Bluetooth/colorfilters \
+	profiles/CEC/colorfilters \
 	profiles/Classic/colorfilters
 
 #

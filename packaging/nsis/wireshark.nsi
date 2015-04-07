@@ -924,6 +924,8 @@ Section "Configuration Profiles" SecProfiles
 ; This should be a function or macro
 SetOutPath '$INSTDIR\profiles\Bluetooth'
 File "${STAGING_DIR}\profiles\Bluetooth\colorfilters"
+SetOutPath '$INSTDIR\profiles\CEC'
+File "${STAGING_DIR}\profiles\CEC\colorfilters"
 SetOutPath '$INSTDIR\profiles\Classic'
 File "${STAGING_DIR}\profiles\Classic\colorfilters"
 SectionEnd

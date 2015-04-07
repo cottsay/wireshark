@@ -1272,6 +1272,8 @@ install-generated-files: doc
 	if not exist $(INSTALL_DIR)\profiles mkdir $(INSTALL_DIR)\profiles
 	if not exist $(INSTALL_DIR)\profiles\Bluetooth mkdir $(INSTALL_DIR)\profiles\Bluetooth
 	xcopy ".\profiles\Bluetooth\colorfilters" $(INSTALL_DIR)\profiles\Bluetooth /d
+	if not exist $(INSTALL_DIR)\profiles\CEC mkdir $(INSTALL_DIR)\profiles\CEC
+	xcopy ".\profiles\CEC\colorfilters" $(INSTALL_DIR)\profiles\CEC /d
 	if not exist $(INSTALL_DIR)\profiles\Classic mkdir $(INSTALL_DIR)\profiles\Classic
 	xcopy ".\profiles\Classic\colorfilters" $(INSTALL_DIR)\profiles\Classic /d
 

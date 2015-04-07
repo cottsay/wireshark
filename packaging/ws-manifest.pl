@@ -23,6 +23,7 @@ my %u3locs = qw(
 	$INSTDIR\platforms host
 	$INSTDIR\plugins\${VERSION} device
 	$INSTDIR\profiles\Bluetooth device
+	$INSTDIR\profiles\CEC device
 	$INSTDIR\profiles\Classic device
 	$INSTDIR\radius device
 	$INSTDIR\snmp\mibs device
